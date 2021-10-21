@@ -19,3 +19,11 @@ Ana
 This assessment was bespoke handcrafted for Ana Laris.
 
 Read more about this assessment [here](https://react.eogresources.com)
+
+## Getting Started 
+```sh
+git clone https://github.com/anatulea/EOG-Assessment.git
+cd EOG-Assessment 
+yarn install
+yarn start
+```
