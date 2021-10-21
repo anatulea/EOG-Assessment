@@ -5,7 +5,10 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import 'react-toastify/dist/ReactToastify.css';
 import Header from './components/Header';
 import Wrapper from './components/Wrapper';
-import NowWhat from './components/NowWhat';
+// import NowWhat from './components/NowWhat';
+import { MeasurementCardsList } from './Features/LastMeasurements/MeasurementCardsList';
+import { SelectContainer } from './Features/SelectMetric/SelectContainer';
+import { MultipleCharts } from './Features/Charts/MultipleCharts';
 
 const theme = createTheme({
   palette: {
@@ -26,7 +29,10 @@ const App = () => (
     <CssBaseline />
     <Wrapper>
       <Header />
-      <NowWhat />
+      <SelectContainer />
+      <MeasurementCardsList />
+      <MultipleCharts />
+      {/* <NowWhat /> */}
       <ToastContainer />
     </Wrapper>
   </MuiThemeProvider>
